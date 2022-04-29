@@ -1,0 +1,461 @@
+@charset "UTF-8";
+
+body {
+	padding: 20px;
+	width: 1050px;
+}
+
+/*蓝色线及以上内容*/
+header>.m-tl>.m-tab>span {
+	background: #006699;
+	color: #fff;
+	padding: 7px 10px 0;
+	border-radius: 3px 3px 0 0;
+	display: block;
+	text-align: center;
+	font-weight: bold;
+}
+
+header>.m-tl>.m-tip>span {
+	background: #ff6600;
+	color: #fff;
+	padding: 2px 4px;
+	font-size: 15px;
+	border-radius: 3px;
+	text-align: center;
+}
+
+header>.m-tl>.m-fun {
+	border: 1px solid #ccc;
+	color: #0000FF;
+	padding: 2px 4px;
+	border-radius: 3px;
+	text-align: center;
+	font-weight: bold;
+	float: right;
+}
+
+header>.m-tl,ui-grid-row {
+	border-bottom: 4px solid #006699;
+	/*margin-right: 0px;*/
+}
+
+header>.m-tl>.ui-grid-2,.m-tl>.ui-grid-21 {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.m-tl>.m-fun>img {
+	width: 20%;
+}
+
+/*灰色背景的第一行，涵盖了总信息*/
+.m-mes {
+	margin-right: -10px;
+	background: #eee;
+	border: 1px solid #ccc;
+}
+
+.m-mes>.m-tt {
+	padding-left: 10px;
+}
+
+.m-mes>.m-tt>span:first-child {
+	font-size: 15px;
+	color: red;
+	font-weight: bold;
+}
+
+.m-mes>.m-tt>span:nth-child(3) {
+	font-size: 15px;
+	color: red;
+	font-weight: bold;
+}
+
+.m-mes>.m-tt>span:nth-child(2) ,span:nth-child(4){
+	/*font-size: 15px;*/
+	color: red;
+	font-weight: bold;
+}
+
+.m-mes>.m-tt>span:nth-child(5) {
+	padding-left: 20px;
+}
+
+.m-mes>.m-tt>span:nth-child(6) {
+	/*font-size: 15px;*/
+	color: red;
+	font-weight: bold;
+}
+
+.m-mes>.m-dt {
+	padding-left: 10px;
+}
+
+.m-mes>.m-dt>span:nth-child(3) {
+	padding-left: 20px;
+}
+
+.m-mes>.m-dt>span:nth-child(5) {
+	padding-left: 20px;
+}
+
+.m-mes>.m-dt>span:nth-child(2) {
+	color: red;
+	font-weight: bold;
+}
+
+.m-mes>.m-dt>span:nth-child(6) {
+	color: red;
+	font-weight: bold;
+}
+
+.m-mes>.m-dt>span:nth-child(4) {
+	color: black;
+	font-weight: bold;
+}
+
+/*打印那一行*/
+.m-mes>.m-print>.m-printr>img {
+	width: 1.5%;
+}
+
+.m-mes>.m-print {
+	background: #FFFFCD;
+	border-top: 1px solid #ccc;
+}
+
+.m-mes>.m-print>.m-printr>span {
+	color: #0000FF;
+	text-decoration:underline;
+}
+
+/*天蓝色标题行*/
+.m-btl,ui-grid-row{
+	background: #B9D3EE;
+	text-align: center;
+	height: 20px;
+	margin-top: 3px;
+	color: #4A708B;
+	/*margin-right: 0px;*/
+}
+
+.m-btl>.m-btlr>.m-btlr1,.m-btlr2,.m-btlr3,.m-btlr4 {
+	height: 20.5px;
+	border-left: 2px solid #fff;
+}
+
+/*起始车站信息行*/
+.m-conf,ui-grid-row {
+	background: #eee;
+	border: 1px solid #ccc;
+	height: 35px;
+	margin-right: 0px;
+}
+
+.m-conf>.m-weather {
+	margin-left: 25px;
+	margin-right: 0px;
+}
+
+.m-conf>.m-weather>img:first-child {
+	padding-left: 70px;
+}
+
+.m-conf>.m-name>span {
+	font-size: 18px;
+	font-weight: bold;
+	/*text-align: center;*/
+	margin-top: -5px;
+	margin-left: 5px;
+}
+
+.m-conf>.m-timet>span {
+	padding-left: 40px;
+	font-weight: bold;
+	color: #0000FF;
+	text-decoration:underline;
+}
+
+/*乘坐bus的信息行*/
+.m-bus {
+	height: 50px;
+	background: #fff;
+}
+.m-bus>.m-bust {
+	text-align: center;
+	margin-top: -7px;
+}
+
+.m-bus>.m-bust>span:first-child {
+	font-weight: bold;
+}
+
+.m-bus>.m-tri {
+	width: 1px;
+	height:52px;
+	margin-top: -15px;
+	border-left:3px solid #00C5CD;
+	border-right:3px solid #00C5CD;
+	display: inline-block;
+	float: left;
+}
+
+.m-bus>.m-busmes>.m-buspic {
+	text-align: center;
+	color: #a86606;
+	font-weight: bold;
+}
+
+.m-bus>.m-busmes>.m-busc {
+	color: #006699;
+	font-weight: bold;
+	margin-top: -7px;
+}
+
+.m-bus>.m-busmes>.m-busr {
+	margin-left: 33px;
+}
+
+.m-bus>.m-busmes>.m-busr>.m-bus1 {
+	border-left: 2px solid #ccc;
+	height: 52px;
+	margin-top: -15px;
+}
+
+.m-bus>.m-busmes>.m-busr>.m-bus2 {
+	border-left: 2px solid #ccc;
+	height: 39px;
+	margin-top: -15px;
+	text-align: center;
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 13px;
+}
+
+.m-bus>.m-busmes>.m-busr>.m-bus2>span {
+	padding-left: 15px;
+}
+
+.m-bus>.m-busmes>.m-busr>.m-bus3 {
+	border-left: 2px solid #ccc;
+	height: 52px;
+	margin-top: -15px;
+}
+
+.m-bus>.m-busmes>.m-busr>.m-bus4 {
+	border-left: 2px solid #ccc;
+	height: 52px;
+	margin-top: -15px;
+}
+
+.m-bus>.m-busmes>.m-busr>.m-bus2>span {
+	margin-top: 10px;
+}
+
+/*中间暂停的车站信息行*/
+.m-wait,ui-grid-row {
+	background: #eee;
+	border: 1px solid #ccc;
+	height: 50px;
+	margin-right: 0px;
+}
+
+.m-wait>.m-wtime {
+	text-align: right;
+	margin-top: -5px;
+	margin-left: 20px;
+}
+
+.m-wait>.m-wtime>img {
+	margin-left: 35px;
+}
+
+.m-wait>.m-wname {
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: -8px;
+	margin-right: 0px;
+}
+
+.m-wait>.m-position {
+	text-align: center;
+	margin-top: -2px;
+}
+
+.m-wait>.m-detail {
+	float: right;
+	margin-top: -10px;
+}
+
+.m-wait>.m-detail>span {
+	color: #000;
+	font-weight: bold;
+	color: #0000FF;
+	text-decoration:underline;
+}
+
+.m-wait>.m-detail>span:nth-child(1) {
+	margin-left: 155px;
+}
+
+.m-wait>.m-detail>span:nth-child(5) {
+	margin-left: 215px;
+}
+
+/*乘坐train的具体信息行*/
+.m-train {
+	height: 50px;
+	background: #fff;
+}
+.m-train>.m-traint {
+	text-align: center;
+	margin-top: 8px;
+}
+
+.m-train>.m-traint>span:first-child {
+	font-weight: bold;
+}
+
+.m-train>.m-track {
+	width: 1px;
+	height:52px;
+	display: inline-block;
+}
+
+.m-train>.m-track>.btrack {
+	width: 2px;
+	height: 8.5px;
+	border-left:2px solid #00C5CD;
+	border-right:2px solid #00C5CD;
+}
+
+.m-train>.m-track>.btrack:first-child {
+	background: #00C5CD;
+}
+
+.m-train>.m-track>.btrack:nth-child(3) {
+	background: #00C5CD;
+}
+
+.m-train>.m-track>.btrack:nth-child(5) {
+	background: #00C5CD;
+}
+
+
+.m-train>.m-trainmes>.m-trainpic {
+	text-align: center;
+	font-weight: bold;
+	color: #1296db;
+	margin-left: 10px;
+	margin-top: -35px;	
+}
+
+.m-train>.m-trainmes>.m-trainc {
+	color: #006699;
+	font-weight: bold;
+	margin-top: -45px;
+	margin-left: 125px;
+}
+
+.m-train>.m-trainmes>.m-trainr {
+	margin-left: 35px;
+	margin-top: -38px;
+}
+
+.m-train>.m-trainmes>.m-trainr>.m-train1 {
+	border-left: 2px solid #ccc;
+	height: 52px;
+	margin-top: -15px;
+}
+
+.m-train>.m-trainmes>.m-trainr>.m-train2 {
+	border-left: 2px solid #ccc;
+	height: 39px;
+	margin-top: -15px;
+	text-align: center;
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 13px;
+}
+
+.m-train>.m-trainmes>.m-trainr>.m-train2>span {
+	padding-left: 15px;
+}
+
+.m-train>.m-trainmes>.m-trainr>.m-train3 {
+	border-left: 2px solid #ccc;
+	height: 45px;
+	margin-top: -15px;
+	text-align: center;
+	padding-top: 8px;
+}
+
+.m-train>.m-trainmes>.m-trainr>.m-train4 {
+	border-left: 2px solid #ccc;
+	height: 37px;
+	margin-top: -15px;
+	text-align: center;
+	padding-top: 17px;
+	padding-left: 22px;
+
+}
+
+.m-train>.m-trainmes>.m-trainr>.m-train2>span {
+	margin-top: 10px;
+}
+
+/*终点站信息行*/
+.m-terminal,ui-grid-row {
+	background: #eee;
+	border: 1px solid #ccc;
+	height: 50px;
+	margin-right: 0px;
+}
+
+.m-terminal>.m-tweather {
+	margin-left: 20px;
+	margin-right: 0px;
+	margin-top: -3px;
+}
+
+.m-terminal>.m-tweather>img:first-child {
+	padding-left: 68px;
+}
+
+.m-terminal>.m-tname {
+	margin-top: -8px;
+}
+
+.m-terminal>.m-tname>span {
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: 12px;
+}
+
+.m-terminal>.m-tposition.ui-grid-3 {
+    margin-top: -3px;
+    margin-left: 30px;
+}
+
+.m-terminal>.m-tdetail {
+	float: right;
+	margin-top: -13px;
+}
+
+.m-terminal>.m-tdetail>span {
+	color: #000;
+	font-weight: bold;
+	color: #0000FF;
+	text-decoration:underline;
+}
+
+.m-terminal>.m-tdetail>span:nth-child(1) {
+	margin-left: 195px;
+}
+
+.m-terminal>.m-tdetail>span:nth-child(4) {
+	margin-left: 170px;
+}
